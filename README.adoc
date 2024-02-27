@@ -124,7 +124,12 @@ postgres : Spécifie l'image Docker à utiliser, dans ce cas, l'image officielle
 ************** Compléter le code manquant dans la méthode `TodoListController.createTodoItem()`*************
 
 
-*Pourquoi `todoItemRepository` est-il `null` ? Quelle est la meilleure façon de l'injecter ?*
+*********Pourquoi `todoItemRepository` est-il `null` ?***********
+
+todoItemRepository` est `null` car ce n'est pas instancié avant l'utilisation.
+
+***********Quelle est la meilleure façon de l'injecter ?**********
+La meilleure facon est de faire une injection de dépendence.
 
 * Modifier le code en conséquence.
 
