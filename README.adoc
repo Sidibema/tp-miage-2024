@@ -186,9 +186,11 @@ _Temps estimé : 20 mins_
 
 * Rester sur le même code que l'exercice 2
 
-* Implémenter (en junit) des TU portant sur la règle de gestion qui consiste à afficher `[LATE!]` dans la description d'un item en retard de plus de 24h.
+************** Implémenter (en junit) des TU portant sur la règle de gestion qui consiste à afficher `[LATE!]` dans la description d'un item en retard de plus de 24h.*********
+En créeant une nouvelle classe TodoItemTest.
 
-*Quels types de tests devra-t-on écrire pour les adaptateurs ?* 
+*************Quels types de tests devra-t-on écrire pour les adaptateurs ?*******
+Les tests pour les adapteurs en architecture hexagonale sont: test d'integration, test de contract, test unitaire, tests de performance et test de résilience.
 
 *S'il vous reste du temps, écrire quelques-uns de ces types de test.*
 
