@@ -49,7 +49,7 @@ public class TodoItem {
 		return "TodoItem [id=" + id + ", time=" + time + ", content=" + content + "]";
 	}
 
-	boolean isLate() {
+	public boolean isLate() {
 		return Instant.now().isAfter(getTime().plus(1, ChronoUnit.DAYS));
 	}
 
